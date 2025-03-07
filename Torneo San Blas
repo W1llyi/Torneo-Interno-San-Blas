@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torneo San Blas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Torneo San Blas</h1>
+    <p>Bienvenidos al Torneo de Fútbol más emocionante de la temporada</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="calendario.html">Calendario de Partidos</a></li>
+      <li><a href="resultados.html">Resultados Anteriores</a></li>
+      <li><a href="goleadores.html">Tabla de Goleadores</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="descripcion">
+      <h2>Bienvenidos al Torneo San Blas</h2>
+      <p>Este torneo reúne a equipos locales para disputar el campeonato anual en la comunidad de San Blas. ¡Prepárate para vivir la pasión del fútbol!</p>
+    </section>
+
+    <section class="imagen">
+      <img src="torneo.jpg" alt="Imagen del torneo">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Torneo San Blas</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.descripcion h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario de Partidos - Torneo San Blas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Calendario de Partidos</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="resultados.html">Resultados Anteriores</a></li>
+      <li><a href="goleadores.html">Tabla de Goleadores</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Partidos Programados</h2>
+      <p>Aquí puedes ver los partidos programados para cada fin de semana.</p>
+
+      <table>
+        <tr>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Equipo 1</th>
+          <th>Equipo 2</th>
+        </tr>
+        <tr>
+          <td>10 de Marzo</td>
+          <td>10:00 AM</td>
+          <td>Equipo A</td>
+          <td>Equipo B</td>
+        </tr>
+        <tr>
+          <td>11 de Marzo</td>
+          <td>12:00 PM</td>
+          <td>Equipo C</td>
+          <td>Equipo D</td>
+        </tr>
+        <!-- Agregar más partidos aquí -->
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Torneo San Blas</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados Anteriores - Torneo San Blas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Resultados Anteriores</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="calendario.html">Calendario de Partidos</a></li>
+      <li><a href="goleadores.html">Tabla de Goleadores</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Últimos Resultados</h2>
+      <p>Aquí puedes ver los resultados de los partidos pasados.</p>
+
+      <table>
+        <tr>
+          <th>Fecha</th>
+          <th>Equipo 1</th>
+          <th>Resultado</th>
+          <th>Equipo 2</th>
+        </tr>
+        <tr>
+          <td>3 de Marzo</td>
+          <td>Equipo A</td>
+          <td>3 - 1</td>
+          <td>Equipo B</td>
+        </tr>
+        <tr>
+          <td>4 de Marzo</td>
+          <td>Equipo C</td>
+          <td>2 - 2</td>
+          <td>Equipo D</td>
+        </tr>
+        <!-- Agregar más resultados aquí -->
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Torneo San Blas</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Goleadores - Torneo San Blas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tabla de Goleadores</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="calendario.html">Calendario de Partidos</a></li>
+      <li><a href="resultados.html">Resultados Anteriores</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Jugadores Destacados</h2>
+      <p>Estos son los goleadores del torneo.</p>
+
+      <table>
+        <tr>
+          <th>Jugador</th>
+          <th>Equipo</th>
+          <th>Goles</th>
+        </tr>
+        <tr>
+          <td>Juan Pérez</td>
+          <td>Equipo A</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Carlos Gómez</td>
+          <td>Equipo B</td>
+          <td>4</td>
+        </tr>
+        <!-- Agregar más goleadores aquí -->
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Torneo San Blas</p>
+  </footer>
+</body>
+</html>
